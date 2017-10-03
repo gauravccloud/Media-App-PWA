@@ -1,0 +1,51 @@
+.carousel-inner {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.carousel-inner .item img {
+    width: 100%;
+}
+
+.carousel-control-prev:hover {
+   background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,.2) 100%);    
+}
+
+.carousel-control-next:hover {
+    background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(0,0,0,.2) 100%);
+}
+
+.carousel-container {
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+}
+
+.jumbotron {
+    padding: 0px;
+}
+
+.carouse-container-head {
+    margin: 0px;
+    width: 100%;
+    padding: 0px;
+}
+
+h4 {
+    margin: 20px;
+}
+
+.col-lg-3 {
+    padding-bottom: 5px;
+}
+
+.footer {
+    margin-top:20px;
+    padding:20px;
+    background-color: black;
+}
+
+.text-muted {
+    color: white !important;
+}
