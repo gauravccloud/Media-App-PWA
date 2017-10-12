@@ -21,6 +21,6 @@ export class Grid {
   lg: number;
   all: number;
 }
- 
-export type Custom = 'tile';
+
+export type Custom = 'banner';
 export type Animate = 'lazy';

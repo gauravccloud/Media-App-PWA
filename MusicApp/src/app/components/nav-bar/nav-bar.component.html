@@ -1,9 +1,13 @@
-  <!-- <header class="header">
-    <div class="logo-space"></div>
-  </header> -->
- <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top">
+<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse fixed-top">
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+        <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand" href="#">Sony Live</a>
+    <a class="navbar-brand logo-space" routerLink="/home"></a>
+    <div class="search-bar-icon">
+    <div class="search-bar">
+        <div class="form-group m-0 ">
+            <input class="form-control" placeholder="search" type="text" [(ngModel)]="searchQuery" (keydown)="searchData($event)"/>
+        </div>
+    </div>
+    </div>
 </nav>

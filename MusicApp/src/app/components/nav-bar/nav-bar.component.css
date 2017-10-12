@@ -41,6 +41,36 @@
     background-image: url("/assets/images/sonylivLogo.png");
     background-repeat: no-repeat;
     position: relative;
-    left: 50px;
+    height: 37px;
     width: 140px;
+  }
+  .bg-inverse {
+    background-color: #fff !Important;
+    box-shadow: 0 3px 7px 0 rgba(0,0,0,.35);
+  }
+  .search-bar-icon {
+    display: block;
+    position: absolute;
+    right: 1em;
+    cursor: pointer;
+    width: 35px;
+    height: 45px;
+    background-image: url(/assets/images/search_icon.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 50%;
+  }
+  .search-bar-icon:hover .search-bar {
+    opacity: 1;
+    display: block;
+  }
+  .search-bar {
+    position: absolute;
+    width: 320px;
+    right: 0;
+    top: 49px;
+    opacity: 0;
+    display: none;
+    padding: 20px;
+    background-color: #333;
   }

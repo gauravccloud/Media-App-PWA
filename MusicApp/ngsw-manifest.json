@@ -1,0 +1,29 @@
+{
+ "static.ignore": [
+   "^\/assets\/ignore.*$"
+ ],
+  "routing": {
+   "index": "/index.html",
+   "routes": {
+     "/": {
+       "match": "exact"
+     },
+     "/home": {
+       "match": "exact"
+     },
+     "/listing/must_watch_videos": {
+       "match": "exact"
+     },
+     "^/regex/.*/route$": {
+       "match": "regex"
+     }
+   }
+ },
+   "external": {
+    "urls": [
+        {
+            "url": "https://fonts.googleapis.com/css?family=Material+Icons"
+        }
+    ]
+}
+}
